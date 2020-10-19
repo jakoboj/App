@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handleliste</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/handleliste.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <nav>
+            <div class="navbar">
+                <h1>App Name</h1>
+                <div class="toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="handleliste.html">Handleliste</a></li>
+                    <li><a href="spill.html">Spill</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Handleliste -->
+        <div class="innhold">
+            <header>
+                <h1>Handleliste</h1>
+            </header>
+
+            <div class="todo">
+                <input type="text" id="item"><button type="button" id="btnAdd">+</button>
+                <div class="todocontainer" id="todolist"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

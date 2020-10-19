@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spill</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/spill.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="navbar">
+                <h1>App Name</h1>
+                <div class="toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="handleliste.html">Handleliste</a></li>
+                    <li><a href="spill.html">Spill</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="game">
+            <header>
+                <h1>Color game</h1>
+            </header> 
+            <p>Write the color of the word, not the word itself.</p>
+            <br />
+            <input type="text" id="input" onchange="tilfeldigOrd()"/>
+            <div id="output"></div>
+            <div id="counter"></div>
+            <div id="feil"></div>
+            <div id="seconds"></div>
+        </div>
+    </div>
+</body>
+</html>
